@@ -20,7 +20,7 @@
 
         if(!(/[a-zA-z]{1,50}/).test(fname) || !(/[a-zA-z]{1,50}/).test(lname))
         {
-          alert("Name size cannot have special characters");
+          alert("Invaid Name");
         }
 
         if(!((/[0-9]{10}/).test(mobileno))){
@@ -32,11 +32,11 @@
         }
 
         if(!(/[a-z0-9]{5,}/).test(username)) {
-          alert("Invalid email");
+          alert("Invalid username");
         }
 
         if(!(/[a-z0-9]{8,}/).test(pass)){
-          alert("Invalid email");
+          alert("Invalid password");
         }
 
       }
